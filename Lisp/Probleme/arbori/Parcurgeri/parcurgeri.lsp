@@ -35,10 +35,10 @@
 	)
 
 (print "Preorder")
-(preorder '(30 (20 (10 15) (25 23)) (39 35 42)))
+(preorder '(a (b (d h) (e i)) (c f g)))
 
 (print "Postorder")
-(postorder '(30 (20 (10 15) (25 23)) (39 35 42)))
+(postorder '(a (b (d h) (e i)) (c f g)))
 
 (print "Inorder")
-(inorder '(30 (20 (10 15) (25 23)) (39 35 42)))
+(inorder '(a (b (d h) (e i)) (c f g)))
